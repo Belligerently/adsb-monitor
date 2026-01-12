@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=ADS-B Feeder Monitor
-Comment=Monitor your ADS-B feeder with an intuitive interface
-Exec=python3 /opt/adsb-monitor/adsb_monitor.py
+Comment=Monitor your ADS-B feeder
+Exec=adsb-monitor
 Icon=airplane-mode-symbolic
 Terminal=false
 Type=Application
 Categories=Network;Monitor;Utility;
-Keywords=adsb;flight;aircraft;radar;tracking;feeder;
+Keywords=adsb;flight;aircraft;radar;
 StartupWMClass=adsb-monitor
